@@ -6704,7 +6704,7 @@ export default function Home() {
                         {item.target ? (
                           <button
                             type="button"
-                            onClick={() => openManagementChangeTarget(item.target)}
+                            onClick={() => openManagementChangeTarget(item.target!)}
                             className={`mt-4 inline-flex items-center gap-2 rounded-xl border px-3.5 py-2.5 text-xs font-semibold transition ${
                               darkMode
                                 ? "border-zinc-700 bg-zinc-900 text-zinc-200 hover:bg-zinc-800"
